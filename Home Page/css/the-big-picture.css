@@ -1,12 +1,161 @@
-/*!
- * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
- */
+
 body {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  padding-top: 54px;
+}
+ 
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+.home-hero {
+  margin: 0;
+  padding-top: 40px;
+  padding-left: 30px;
+  height: 710px;
+  width: 1440px;
+  background: white;
+
+}
+
+.hero-text {
+  font-family: 'Futura', sans-serif;
+  font-size: 20pt;
+  font-weight: 300;
+  color: black;
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 50px;
+
+}
+
+.hero-text-blue {
+  font-family: 'Futura', sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  color: #95C8FF;
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 50px;
+
+}
+
+.barlow-light {
+  font-family: 'Futura', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
+}
+
+.barlow-semibold {
+  font-family: 'Futura', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-text {
+  font-family: 'Futura', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+.purewhite {
+  background: white;
+}
+
+.alert-push {
+  margin-top: 20px;
+}
+
+.nav-logo {
+  font-family: 'Futura', sans-serif;
+  font-size: 24pt;
+  font-weight: 300;
+  color: black;
+  display: inline-block;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.nav-logo:hover, .nav-logo:focus {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#dropshadow {
+  box-shadow: 0px 3px 51px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 3px 51px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 3px 51px rgba(0, 0, 0, 0.3);
+
+}
+
+.home-wb-logo img{
+  display: inline-block;
+}
+
+.hero-logo {
+  font-family: 'Futura', sans-serif;
+  font-size: 53pt;
+  font-weight: 300;
+  color: black;
+}
+
+.hero-logo-line {
+  font-family: 'Barlow', sans-serif;
+  font-size: 160pt;
+  font-weight: 100;
+  color: white;
+}
+
+.hero-btn-div {
+  margin-top: 70px;
+}
+
+
+.btn-prim:active {
+  background: rgba(126, 126, 126, 1);
+ 
+}
+
+.btn-prim:focus {
+  outline: none;
+ 
+}
+
+.btn-prim {
+  font-family: 'Futura', sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  color: white;
+  width: 525px;
+  height: 54px;
+  margin: 15px;
+  border-radius: 27px;
+  background: rgba(90, 148, 244, .75);
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.btn-prim:hover {
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 22px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 1px 22px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.footer-space {
+  margin: 10px;
 }
